@@ -1,14 +1,9 @@
-body {
-    margin: 0;
-}
-
-h1 {
+body, h1, .header {
     margin: 0;
 }
 
 .header {
     font-size: 20px;
-    margin: 0;
 }
 
 .links {
@@ -17,6 +12,6 @@ h1 {
     margin: auto;
 }
 
-li {
+.links > li {
     display: inline;
 }
